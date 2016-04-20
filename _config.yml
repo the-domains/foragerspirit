@@ -1,28 +1,40 @@
-name: foragerspirit
 favicon: null
-layout_spectrum: 0.25382618559524417
-typography_spectrum: 0.4913321908097714
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: foragerspirit
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#A690A4'
-    - '#B68F9D'
-    - '#C8ACAB'
-    - '#FBB9BF'
-    - '#E376B7'
-  brandStrength: 0.528854220174253
-  lightness: 0.1043434462044388
-  saturation: 0.3884748925920576
-  rhythmicContrast: 0.2061018159147352
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.3884748925920576
+  brandStrength: 1
+  lightness: 0.1043434462044388
+  brandColors:
+    - '#E3DFD6'
+    - '#501E0D'
+    - '#A58B3B'
+    - '#C90510'
+    - '#FD6058'
+  rhythmicContrast: 0.2061018159147352
+typography_spectrum: 0.4913321908097714
+layout_spectrum: 0.2538261855952442
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
