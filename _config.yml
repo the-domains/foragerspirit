@@ -1,7 +1,5 @@
-analytics:
-  twitter: null
-  google: null
-  facebook: null
+favicon: null
+name: foragerspirit
 opengraph:
   image: null
   type: null
@@ -31,10 +29,12 @@ color:
     - '#FD6058'
   rhythmicContrast: 0.2061018159147352
 typography_spectrum: 0.05197133
+layout_spectrum: 0.2240143
 cta:
   bucket: null
   version: null
   domain: null
-layout_spectrum: 0.2538261855952442
-favicon: null
-name: foragerspirit
+analytics:
+  twitter: null
+  google: null
+  facebook: null
