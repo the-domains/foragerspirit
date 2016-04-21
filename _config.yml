@@ -1,7 +1,7 @@
 name: forager spirit
 favicon: null
 layout_spectrum: 0.91187
-typography_spectrum: 0.11555
+typography_spectrum: 0.09243
 collections:
   - index:
       path: /
